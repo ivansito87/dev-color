@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0"
+    />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/dev-color.esm.js"></script>
+    <script nomodule src="/build/dev-color.js"></script>
+  </head>
+  <body>
+    <my-alert kind="info" message="This is a very important alert!"></my-alert>
+    <my-alert kind="warning" message="This is a very important alert!"></my-alert>
+    <my-alert kind="error" message="This is a very important alert!"></my-alert>
+    <my-alert kind="success" message="This is a very important alert!"></my-alert>
+    <p>More important stuff!</p>
+    <button>Click Me</button>
+
+    <script>
+      function handleClick() {
+        const alert = document.querySelector("my-alert");
+        alert.message = "This was a very important alert!";
+      }
+      const button = document.querySelector("button");
+      button.addEventListener("click", handleClick);
+    </script>
+  </body>
+</html>
+

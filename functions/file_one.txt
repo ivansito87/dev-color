@@ -1,0 +1,11 @@
+import { Component, h } from "@stencil/core";
+
+@Component({
+  tag: "my-alert",
+  styleUrl: "my-alert.scss"
+})
+export class MyAlert {
+  render() {
+    return <div>Hello</div>;
+  }
+}

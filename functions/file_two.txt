@@ -1,0 +1,12 @@
+import { Component, h, Prop } from "@stencil/core";
+
+@Component({
+  tag: "my-alert",
+  styleUrl: "my-alert.scss"
+})
+export class MyAlert {
+  @Prop() message: string = "This is an important alert";
+  render() {
+    return <div>{this.message}</div>;
+  }
+}

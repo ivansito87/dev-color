@@ -1,0 +1,15 @@
+p {
+  margin: 20px 60px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  width: 600px;
+  box-shadow: 0 10px 6px -6px #777;
+  color: #00529b;
+  background-color: #bde5f8;
+  border: 1px solid darken(#bde5f8, 15%);
+}
